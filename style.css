@@ -40,6 +40,32 @@ body {
     margin-top: -3rem;
 }
 
+.trakimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: -80px;
+  margin-top: -30px;
+}
+
+.trakimg img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Target only the Google Play image using nth-child */
+.trakimg img:nth-child(2) {
+  margin-top: 10px; /* adjust this number until both look equal */
+}
+.trakimg img:nth-child(2) {
+  height: 66px; /* increase height */
+  width: auto;  /* maintain aspect ratio */
+}
+
+
+
 /* .img {
     width: 12%;
    margin-left: 37.7rem;
