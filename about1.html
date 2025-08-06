@@ -4,43 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about1.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <header class="bg-white shadow-md p-4 flex justify-between items-center rounded-lg mx-4 mt-4">
+        <div class="flex items-center">
+            <img src="assets/WhatsApp Image 2025-08-03 at 17.47.23_0c9ad342.jpg" alt="Trakme Logo" class="mr-2 w-10 h-10">
+            <span class="text-blue-700 font-bold text-xl">TrakMe</span>
+        </div>
+        <button class="nav-toggle md:hidden">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+        </button>
+        <nav class="nav-menu md:flex md:space-x-4">
+            <a href="#" class="text-blue-600 hover:text-blue-800 px-3 py-2 rounded-lg block">Home</a>
+            <a href="about1.html" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-lg block">About</a>
+            <a href="#features" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-lg block">Features</a>
+            <a href="#" class="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-lg block">FAQs</a>
+        </nav>
+    </header>
     <section class="opportunities">
             <div class="opportunities__img">
                 <img src="assets/img/leaf.png" alt="">
             </div>
             <div class="opportunities__content w-105">
                 <div class="opportunities__head">
-                    <h2 class="opportunities__title">New Opportunities</h2>
-                    <p class="opportunities__description">We are the first and the only crowdfunding platform enabling you to help finance our farmers.</p>
+                    <!-- <h2 class="opportunities__title">About TRAKME</h2> -->
+                    <!-- <p class="opportunities__description">We are the first and the only crowdfunding platform enabling you to help finance our farmers.</p> -->
                 </div>
                 <div class="opportunities__body">
                     <div class="opportunity">
                         <img src="assets/img/opportunites/opportunity-1.svg" alt="Icon" class="opportunity__icon">
-                        <h4 class="opportunity__title">Connect with our farmers</h4>
-                        <p class="opportunity__description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                        </p>
+                        <h4 class="opportunity__title">Our Mission</h4>
+                        <p class="opportunity__description">At TrakMe we believe in creating a safer digital world for families. Our mission is to empower parents with the tools they need to protect their children from online and physical threats, manage screen time, and monitor their wards wellbeing, all while respecting privacy and promoting trust.</p>
                     </div>
 
                     <div class="opportunity active">
                         <img src="assets/img/opportunites/opportunity-2.svg" alt="Icon" class="opportunity__icon">
-                        <h4 class="opportunity__title">Grow your business</h4>
+                        <h4 class="opportunity__title">Our Values</h4>
                         <p class="opportunity__description">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                            Privacy-First – We never sell your data. Transparency – Parents and kids see what’s being monitored.Education Over Control – We help families build trust.
                         </p>
                     </div>
                     <div class="opportunity">
                         <img src="assets/img/opportunites/opportunity-3.svg" alt="Icon" class="opportunity__icon">
-                        <h4 class="opportunity__title">Social Impact Invesment
+                        <h4 class="opportunity__title">Why We Created TrakMe
                         </h4>
                         <p class="opportunity__description">
-                            At vero eos et accusamus et iusto odio praesentium atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+                            With the rise of insecurity, cyberbullying, and inappropriate content, keeping loved ones safe has never been more challenging. As parents ourselves, we wanted a simple yet powerful solution that gives families peace of mind without being overly restrictive. That’s why we built TrakMe.
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
-</body>
-</html>
+     
